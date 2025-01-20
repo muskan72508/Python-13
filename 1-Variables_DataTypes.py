@@ -15,6 +15,8 @@
 
 # 5- Dictionary [Key value Pair]
 
+#6- Boolean [True , False]
+
 a=complex(8,2)
 b=True
 c="Sarthak"
@@ -35,5 +37,15 @@ print(a+b)
 
 # Gives error because we can't add two variables together
 # that has different datatype
+
+
+
+
+
+
+muskan=34   #Number
+muskan="345"   #String
+muskan=["34","45","345"]   #List
+
 
 

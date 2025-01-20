@@ -1,5 +1,8 @@
-x=input("Enter first Number: ")
-y=input("Enter second Number: ")
+
+
+
+x=input("Enter first Number: ")  
+y=input("Enter second Number: ")  
 
 
 # Every inoput is string in python
@@ -8,3 +11,10 @@ y=input("Enter second Number: ")
 print(x+y)
 
 print(int(x)+int(y))
+
+
+
+x=12
+y=34
+
+print(x+y)

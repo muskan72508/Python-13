@@ -12,6 +12,7 @@ length=len(str)
 strUpper=str.upper()
 strLower=str.lower()
 
+print(str)
 print(strUpper)
 print(strLower)
 
@@ -40,7 +41,7 @@ print(str.count("a"))
 print(str.endswith("ak"))
 
 
-# To find the first occurence and return the index
+# To find the first occurence and return the index[Number]
 # If does not find gives -1
 print(str.find("ak"))
 
@@ -50,3 +51,44 @@ print(str.isalpha())
 
 # If contains only A-Z and a-z and 0-9
 print(str.isalnum())
+
+
+
+
+# strNew1="Musku"
+# strNew1[0]="K"
+# print(strNew1)
+
+# Above code is not possible because strings are immutable
+
+# len
+# capitalize
+# upper
+# lower
+# replace
+# split
+# find
+# count
+
+# len(str)
+# str.capitalize()
+# str.upper()
+# str.lower()
+# str.replace("k","a")
+# str.split('a')
+# str.find("us")
+# str.count("us")
+
+
+muspu="Hi I am Sarthak.Core lover of Muskan Sweetheart"
+
+# Find Index of substring "lover" 
+
+print(muspu.find("lover"))
+print(muspu.capitalize())
+print(muspu.upper())
+print(muspu.lower())
+print(muspu.replace("s","k"))
+print(muspu.split('l'))
+print(muspu.count("a"))
+print(len(muspu))

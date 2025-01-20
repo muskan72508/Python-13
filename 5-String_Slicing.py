@@ -15,7 +15,33 @@ print(len(names))
 # python consider it as [0: len(names)-2]
 print(names[0:-2])
 
-# We can also start negiative for staring index tooo
-str="Harry"
-print(str[-4:-2])
 
+
+# We can also start negiative for staring index tooo
+# str="Harry"
+# print(str[-4:-2])
+
+
+
+
+
+
+
+
+
+
+
+
+strNew1="Muskan is Pookie"
+
+# print(strNew1[start,end,jump])
+
+print(strNew1[0:5:1])
+
+print(strNew1[2:5:1])
+
+
+
+
+print(len(strNew1))
+print(strNew1[15:-2:-1])
