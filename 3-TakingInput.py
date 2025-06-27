@@ -5,7 +5,7 @@ x=input("Enter first Number: ")
 y=input("Enter second Number: ")  
 
 
-# Every inoput is string in python
+# Every input is string in python
 
 
 print(x+y)
@@ -18,3 +18,5 @@ x=12
 y=34
 
 print(x+y)
+
+

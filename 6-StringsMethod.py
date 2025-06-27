@@ -1,7 +1,7 @@
 # Length of String
-str="Sarthak"
+str="preeti"
 
-length=len(str)
+# length=len(str)
 
 # Strings are immutable
 # Means string methd don't change original string but always return new string
@@ -9,19 +9,20 @@ length=len(str)
 
 
 #Convert to upper and lower case
-strUpper=str.upper()
-strLower=str.lower()
+# strUpper=str.upper()
+# strLower=str.lower()
 
-print(str)
-print(strUpper)
-print(strLower)
+# print(str)
+# print(strUpper)
+# print(strLower)
 
 
 
 # Replace the occurenences of chars
-str="sarthak"
+str="preeti"
 strReplace=str.replace("s","k")
 print(strReplace)
+print(str)
 
 # Split the string
 # Returns a list
@@ -30,7 +31,9 @@ print(strSplit)
 
 # To Make first letter capital and 
 # make all other letters small
-print(str.capitalize())
+
+preeti=str.capitalize()
+print(preeti)
 
 
 # Count number of occuerences
@@ -44,7 +47,6 @@ print(str.endswith("ak"))
 # To find the first occurence and return the index[Number]
 # If does not find gives -1
 print(str.find("ak"))
-
 
 # If contains only A-Z and a-z
 print(str.isalpha())
@@ -80,11 +82,11 @@ print(str.isalnum())
 # str.count("us")
 
 
-muspu="Hi I am Sarthak.Core lover of Muskan Sweetheart"
+muspu="Hi I am preeti.Core dushmanr of Muskan"
 
-# Find Index of substring "lover" 
+# # Find Index of substring "dushmanr" 
 
-print(muspu.find("lover"))
+print(muspu.find("dushmanr"))
 print(muspu.capitalize())
 print(muspu.upper())
 print(muspu.lower())

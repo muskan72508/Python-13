@@ -10,6 +10,7 @@ l.sort()
 
 # Reverse the list
 l.sort(reverse=True)
+# lists are mutable
 
 
 # Count number of Occurences of Item
@@ -43,3 +44,42 @@ print(l)
 k=l+m
 
 print(k)
+
+
+l=[43,24,35,91,21,67]
+m=l
+
+m[0]=56
+
+print(l)
+print(m)
+
+
+ll=[1,3,4,5,3,1,10,3]
+
+
+
+for index in range(0,len(ll)):
+    if(ll[index]==3):
+        ll[index]=33
+
+# Replace 33 with 44
+
+for index in range(0,len(ll)):
+    if(ll[index]==33):
+        ll[index]=44
+
+
+str11="sartthjathttkjdgnfttjnjk"
+str12=str11.replace("tt","zz")
+print(str12)
+strList=str11.split("tt")
+ans=""
+for index in range(0,len(strList)):
+    if(index==len(strList)-1):
+        ans=ans+strList[index]
+    else:
+        ans=ans+strList[index]+"zz"
+
+
+print(ans)

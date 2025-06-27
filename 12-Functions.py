@@ -1,18 +1,18 @@
 
-def calculateGmean(a,b):
-    return (a*b)/(a+b)
+# def calculateGmean(a,b):
+#     return (a*b)/(a+b)
 
-result=calculateGmean(9,8)
+# result=calculateGmean(9,8)
 
-print(result)
-
-
-def average(a=9,b=1):
-    print("Average",(a+b)/2)
+# print(result)
 
 
-average(a=1)
-average(b=9,a=21)
+# def average(a=9,b=1):
+#     print("Average",(a+b)/2)
+
+
+# average(a=1)
+# average(b=9,a=21)
 
 
 # If we do not give any value it 
@@ -33,8 +33,8 @@ def averageTuple(*numbers):
 
 averageTuple(5,6,7,1)
 
-def nameDict(**name):
-    print(name["fname"])
+# def nameDict(**name):
+#     print(name["fname"])
 
 
-nameDict(aname="ffv",bname="fgf",fname="ljn")
+# nameDict(aname="ffv",bname="fgf",fname="ljn")

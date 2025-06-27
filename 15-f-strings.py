@@ -1,4 +1,4 @@
-name="Sarthak"
+name="preeti"
 country="India"
 print(f"Hi my name is {name} and I am from {country}")
 

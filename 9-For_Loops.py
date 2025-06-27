@@ -1,12 +1,9 @@
-# name="sarthak"
-
-
-
+# name="preeti"
 
 # for i in name:
 #     print(i)
-
 # for k in range(5):
+#     k=k+1
 #     print(k+1)
 
 # for k in range(1,12,3):
@@ -16,11 +13,12 @@
 
 # For Loops on String
 
-# newStr="I love Musku"
-
+# newStr="I dushman Musku"
+# count = ""
 # for val in newStr:
-#     print(val)
+#     # print(val)
 #     aa=val.upper()
+#     # count = count+aa
 #     print(aa)
 
 
@@ -48,7 +46,7 @@
 # For Loops with Range  
 
 # range(startingNumber,endingNumber,jump)
-# By Default (1 in increaing orser)
+# By Default (1 in increaing order)
 # To move in reverse use (-1)
 
 # for number in range(50,101):
@@ -76,12 +74,12 @@
 
 
 
-# arr1=[3,5,7,9,11,32,1]
+arr1=[3,5,7,9,11,32,1]
 
-# for index in range(0,len(arr1)):
-#     if(arr1[index]==7):
-#         print(index)
-#         break
+for index in range(0,len(arr1)):
+    if(arr1[index]==7):
+        print(index)
+        break
 
 
 # 1-Write a for loop from 1-100

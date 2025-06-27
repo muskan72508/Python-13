@@ -1,7 +1,7 @@
 # Multi line String
 
 
-strNew=''' Hello Sarthak
+strNew=''' Hello preeti
 I am good 
 Happy to see u
 '''
@@ -24,34 +24,18 @@ for char in strNew:
 
 
 for index in range(0,len(strNew)):
-    print(index)
+    # print(index)
     char=strNew[index]
     print(index,char)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 strNew1="Muskan is Pookaa"
 
-for val in strNew1:
-    print(val)
+# for val in strNew1:
+#     print(val)
 
 for val in range(0,len(strNew1)):
-    print("Index is: ",val)
+    # print("Index is: ",val)
     print("Value on Index is: ",strNew1[val])
 
 

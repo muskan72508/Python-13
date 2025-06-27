@@ -7,7 +7,7 @@ print(s)
 
 # In set order of items are not maintained
 # When we print order might change
-info={"sarthak",19,False,5.9,19}
+info={"preeti",19,False,5.9,19}
 print(info)
 
 # We cannot define an empty 

@@ -19,7 +19,7 @@
 
 a=complex(8,2)
 b=True
-c="Sarthak"
+c="preeti"
 d=None
 
 print("Type of a",type(a))
@@ -30,22 +30,20 @@ print("Type of d",type(d))
 
 a=123
 b=123
-c="sarthak"
+c="preeti"
 
 # Adds two Var
-print(a+b)
-
-# Gives error because we can't add two variables together
-# that has different datatype
+print(str(a)+c)
 
 
 
 
 
 
-muskan=34   #Number
-muskan="345"   #String
-muskan=["34","45","345"]   #List
+
+# muskan=34   #Number
+# muskan="345"   #String
+# muskan=["34","45","345"]   #List
 
 
 

@@ -19,7 +19,7 @@ print(a+b)
 
 # Implicit Typecasting
 
-c=1.9
-d=9
+# c=1.9
+# d=9
 
-print(c+d)
+# print(c+d)

@@ -8,7 +8,7 @@
 
 
 # strNew1 = "hello"
-# print(strNew1[4::-1])
+# # print(strNew1[4::-1])
 
 # strNew=""
 # for index in range(len(strNew1)-1,-1,-1):
@@ -27,24 +27,16 @@
 # if strnew1 == strnew1[len(strnew1)-1::-1]:
 #     print("Yes it is a palindrome")
 # else:
-#     print("No it is now")
+# #     print("No it is now")
 
-# 3. *Count Vowels and Consonants*  
-#    Write a program to count the number of vowels and consonants in a string.  
-#    Input: "Python"  
-#    Output:  
+# # 3. *Count Vowels and Consonants*  
+# #    Write a program to count the number of vowels and consonants in a string.  
+# #    Input: "Python"  
+# #    Output:  
    
-#    Vowels: 1  
-#    Consonants: 5
-
+# #    Vowels: 1  
+# #    Consonants: 5
 # val = "pyhton"
-# for val in range(0,len):
-#     if val == "aeiou":
-#         print("vowels")
-#     else:
-#        print("consonants")
-# print(val)    
-
 # countVowel=0
 # countConsotants=0
 # vowelIndex=[]
@@ -55,11 +47,11 @@
 #     if(charVal=='a' or charVal=='e' or charVal=='i' or charVal=='o' or charVal=='u'):
 #         countVowel=countVowel+1
 #         vowelIndex.append(index)
-#         # print("Vowel")
+#         print("Vowel")
 #     else:
 #         countConsotants=countConsotants+1
 #         consonantsIndex.append(index)
-#         # print("Constants")
+#         print("Constants")
 
 # countVowel=0
 # countConsotants=0
@@ -100,13 +92,13 @@
 #    Output: True
 
 # strNew1 = "hello"
-# strFind="elloo"
+# strFind="ell"
 
 # if(strNew1.find(strFind)==-1):
-#     print("No present")
+#     print("not present")
 
 # else:
-#     print("Present")
+#     print(" Present")
 
 
 
@@ -145,7 +137,7 @@
 # finalStr=""
 # for res in listArr:
 #     finalStr=finalStr+res+" "
-#  print(finalStr)
+# print(finalStr)
 
 # 8. *Middle Character(s)*  
 #    Write a program to find the middle character(s) of a string.  
@@ -160,7 +152,7 @@
 
 # muskan  ---> 6 chars  --> sk
 
-# sarthak --> 7 chars   --> t
+# preeti --> 7 chars   --> t
 
 
 
@@ -170,6 +162,7 @@
 # else:
 #     index=len(strNew1)/2
 #     print(strNew1[math.floor(index)])
+    # math.floor it round off the number
 
 
 
@@ -181,13 +174,13 @@
 
 
 # strNew1="abcdef"
-# # print(strNew1[::2])
+# # # print(strNew1[::2])
 
 # muskuAns=""
 
 # for index in range(0,len(strNew1)):
-#     if(index%2==0):;
-#         muskuAns=muskuAns+strNew1[index]
+#     if(index%2==0):
+#       muskuAns=muskuAns+strNew1[index]
 
 # print(muskuAns)
 
@@ -285,10 +278,10 @@
 
 # 16. *Split and Join*  
 #     Write a program to split a sentence into words and then join them back with a hyphen (-).  
-#     Input: "I love Python"  
-#     Output: "I-love-Python"
+#     Input: "I dushman Python"  
+#     Output: "I-dushman-Python"
 
-# strNew1 = "I love Python ;lsfdmbg fgn ldkg lkdgmlk lkdmflkd dlkgmdflk kldmlkd dlgkmdblk dflkmdlbk dlkfvdl dlkfmndsfl"
+# strNew1 = "I dushman Python ;lsfdmbg fgn ldkg lkdgmlk lkdmflkd dlkgmdflk kldmlkd dlgkmdblk dflkmdlbk dlkfvdl dlkfmndsfl"
 # newArr = strNew1.split(" ")
 # ans = ""
 # for index in range(0,len(newArr)):
@@ -347,12 +340,7 @@
 
 
 # strNew1 = "programming"
-# newArr = ""
-# for char in strNew1:
-#     if(newArr.find(char)==-1):
-#         newArr=newArr+char
 
-# print(newArr)
 
 
 
@@ -379,20 +367,46 @@
 
 # 20. *Longest Word*  
 #     Write a program to find the longest word in a sentence.  
-#     Input: "I love programming"  
+#     Input: "I dushman programming"  
 #     Output: "programming" 
 
-strNew1="I love programming"  
-strArr=strNew1.split(" ")
+# strNew1="I dushman programming"  
+# strArr=strNew1.split(" ")
 
 
-mx=-1
-ans=""
-for words in strArr:
-    lenWord=len(words)
-    if(lenWord>mx):
-        mx=lenWord
-        ans=words
+# mx=-1
+# ans=""
+# for words in strArr:
+#     lenWord=len(words)
+#     if(lenWord>mx):
+#         mx=lenWord
+#         ans=words
 
-print(ans)
+# print(ans)
 #  These questions will help you practice string manipulation and strengthen your foundational skills in Python. Let me know if you'd like solutions or hints for any!
+
+
+# 21- Sorting a string
+
+# str11="djfnaarthjabefrt"
+
+# ['d','j','n','a','a']
+# ['a','a','d','j','n']
+
+
+# listArr=[]
+
+# for val in str11:
+#     listArr.append(val)
+
+# print(listArr)
+# listArr.sort()
+
+# ans=""
+
+# for val in listArr:
+#     ans=ans+val
+
+# print(ans)
+
+
